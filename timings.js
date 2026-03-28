@@ -1,7 +1,63 @@
 const LYRICS = [
-{time:0,text:"In your black jeans, girl you lookin good"},
-{time:4,text:"Even when I shouldn’t, girl I wish I could"},
-{time:8,text:"Rockin your vibe, how you lookin so nice?"},
-{time:12,text:"Lookin so good that I gotta look twice"},
-{time:16,text:"Ok, maybe more than twice"}
+  { time: 0.0, section: "Chorus", text: "In your black jeans, girl you lookin good" },
+  { time: 4.0, text: "Even when I shouldn’t, girl I wish I could" },
+  { time: 8.0, text: "Rockin your vibe, how you lookin so nice?" },
+  { time: 12.0, text: "Lookin so good that I gotta look twice" },
+  { time: 16.0, text: "Ok, maybe more than twice" },
+
+  { time: 22.0, section: "Verse 1.1", text: "I see you in them black jeans, lookin fine (mmm)" },
+  { time: 26.0, text: "But somehow those words don’t come outta my mind (nope)" },
+  { time: 30.0, text: "I swear I’m giving compliments all the time (oops)" },
+  { time: 34.0, text: "But feeling like my word’s just can’t match your vibe" },
+
+  { time: 40.0, section: "Verse 1.2", text: "Well here it goes:" },
+  { time: 43.0, text: "Your eyes sparkle, they can dazzle a room" },
+  { time: 47.0, text: "And Megan Markle, ain’t got nothing on you" },
+  { time: 51.0, text: "Your arms be poppin, know you’ve been in the gym" },
+  { time: 55.0, text: "And Janice Joplin, can’t compete with your rizz" },
+  { time: 59.0, text: "Blow out the candles, cause you are my wish" },
+  { time: 63.0, text: "Even Shakira can’t compete with your hips" },
+  { time: 67.0, text: "So look, I really wanna be your man’s" },
+  { time: 71.0, text: "Cause next to you, other girls look like tomato cans" },
+
+  { time: 77.0, section: "Chorus", text: "In your black jeans, girl you lookin good" },
+  { time: 81.0, text: "Even when I shouldn’t, girl I wish I could" },
+  { time: 85.0, text: "Rockin your vibe, how you lookin so nice?" },
+  { time: 89.0, text: "Lookin so good that I gotta look twice" },
+  { time: 93.0, text: "Ok, maybe more than twice" },
+
+  { time: 100.0, section: "Verse 2", text: "I can’t even breathe when you walkin in a room" },
+  { time: 104.0, text: "Lookin so good gonna put me in a tomb" },
+  { time: 108.0, text: "Cannot slow my thoughts when you lookin so nice" },
+  { time: 112.0, text: "Cannot even sleep when you runnin through my mind" },
+  { time: 116.0, text: "And that’s all the time so I’m sleep deprived" },
+  { time: 120.0, text: "Girl you so hot got me vaporized" },
+  { time: 124.0, text: "Your hazel eyes got me mesmerized" },
+  { time: 128.0, text: "I really can’t believe you are mine (oh !)" },
+  { time: 132.0, text: "Shoutout to the backside. So fine, oh my" },
+  { time: 136.0, text: "Better call the pigs cause the rump is looking so right" },
+  { time: 140.0, text: "Hottest that I’ve seen in a long time, no lie" },
+  { time: 144.0, text: "One of the best booties that I’ve seen in my life" },
+
+  { time: 151.0, section: "Chorus", text: "In your black jeans, girl you lookin good" },
+  { time: 155.0, text: "Even when I shouldn’t, girl I wish I could" },
+  { time: 159.0, text: "Rockin your vibe, how you lookin so nice?" },
+  { time: 163.0, text: "Lookin so good that I gotta look twice" },
+  { time: 167.0, text: "Ok, maybe more than twice" },
+
+  { time: 174.0, section: "Bridge", text: "My girl be real bad, but she lookin divine" },
+  { time: 178.0, text: "Drop dead gorgeous, but the hottest alive" },
+  { time: 182.0, text: "Looking that good really might be a crime" },
+  { time: 186.0, text: "And if it is, she’s doing serious time" },
+
+  { time: 192.0, text: "My girl be real bad, but she lookin divine" },
+  { time: 196.0, text: "Drop dead gorgeous, but the hottest alive" },
+  { time: 200.0, text: "My fine wine, getting better with time" },
+  { time: 204.0, text: "The rest of y’all be mad cause you know that she mine" },
+
+  { time: 211.0, section: "Final Chorus", text: "In your black jeans, girl you lookin good" },
+  { time: 215.0, text: "Even when I shouldn’t, girl I wish I could" },
+  { time: 219.0, text: "Rockin your vibe, how you lookin so nice?" },
+  { time: 223.0, text: "Lookin so good that I gotta look twice" },
+  { time: 227.0, text: "Hope I’ll be looking for the rest of my life" }
 ];
