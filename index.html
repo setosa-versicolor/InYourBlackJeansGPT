@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>In Your Black Jeans</title>
+<style>
+body{background:#0b0b0b;color:#eee;font-family:sans-serif;margin:0;padding:20px}
+.lyrics{max-width:700px;margin:auto}
+.line{padding:10px;border-radius:8px;margin:4px 0}
+.active{background:#333}
+</style>
+</head>
+<body>
+
+<h1>What I Forgot To Say (In Your Black Jeans)</h1>
+
+<audio id="audio" controls>
+<source src="song.m4a" type="audio/mp4">
+</audio>
+
+<div class="lyrics" id="lyrics"></div>
+
+<script src="timings.js"></script>
+<script>
+const lyricsEl=document.getElementById('lyrics');
+const audio=document.getElementById('audio');
+
+LYRICS.forEach(l=>{
+  const div=document.createElement('div');
+  div.className='line';
+  div.textContent=l.text;
+  div.dataset.time=l.time;
+  lyricsEl.appendChild(div);
+});
+
+const lines=[...document.querySelectorAll('.line')];
+
+audio.ontimeupdate=()=>{
+  const t=audio.currentTime;
+  lines.forEach((el,i)=>{
+    const start=LYRICS[i].time;
+    const next=LYRICS[i+1]?.time||9999;
+    el.classList.toggle('active', t>=start && t<next);
+  });
+};
+</script>
+
+</body>
+</html>
